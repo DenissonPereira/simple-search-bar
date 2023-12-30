@@ -41,6 +41,7 @@ body h1 {
     height: 3em;
     border: none;
     outline: none;
+    background-color: #ffffff00;
 }
 
 #botao {
