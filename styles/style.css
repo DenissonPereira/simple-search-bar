@@ -15,16 +15,16 @@ body h1 {
     font-family: 'Chocolate';
     margin-top: 15%;
     font-size: 7em;
-    color: blue;
+    color: rgb(38, 39, 39);
     animation: acender 2s linear infinite;
 }
 
 @keyframes acender {
     0% {
-        text-shadow: 2px 2px 8px black;
+        text-shadow: 2px 2px 8px rgb(72, 255, 0);
     }
     100% {
-        text-shadow: 2px 2px 8px red;
+        text-shadow: 2px 2px 8px rgb(235, 1, 1);
     }
 }
 
