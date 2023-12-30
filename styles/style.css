@@ -1,3 +1,5 @@
+@import url('/styles/fontes.css');
+
 
 body {
     display: flex;
@@ -10,8 +12,20 @@ body {
 }
 
 body h1 {
+    font-family: 'Chocolate';
     margin-top: 15%;
-    font-size: 5em;
+    font-size: 7em;
+    color: blue;
+    animation: acender 2s linear infinite;
+}
+
+@keyframes acender {
+    0% {
+        text-shadow: 2px 2px 8px black;
+    }
+    100% {
+        text-shadow: 2px 2px 8px red;
+    }
 }
 
 .barra_pesquisa {
